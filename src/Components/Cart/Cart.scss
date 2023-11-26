@@ -1,0 +1,14 @@
+.cart{
+	min-height: 1200px;
+	width: 100%;
+
+	padding: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	flex-direction: column;
+
+	background-color: var(--color-5);
+}

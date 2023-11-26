@@ -1,0 +1,41 @@
+.button__container{
+	width: 100px;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: var(--color-4);
+	.button{
+		box-sizing: border-box;
+
+		z-index: 2;
+		width: 80px;
+		height: 80px;
+		display: flex;
+
+		opacity: 1;
+
+		align-items: center;
+		justify-content: center;
+
+		background-color: inherit;
+
+		transition-duration: 0.3s;;
+		font-family: UbuntuMedium;
+
+		font-size: 20px;
+		> *{
+			color: var(--color-4);
+			font-family: UbuntuMedium;
+		}
+	}
+	.button:hover{
+		height: 90px;
+		width: 90px;
+
+		text-shadow: 0 0 25px var(--color-4);
+		font-size: 25px;
+	}
+}

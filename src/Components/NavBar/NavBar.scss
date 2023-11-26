@@ -1,0 +1,49 @@
+.nav-bar_container{
+	width: 100%;
+	height: 85px;
+	
+	padding: 10px 17%;
+	position: fixed;
+	z-index: 9999;
+
+	background-color: var(--color-3);
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	box-sizing: border-box;
+	.nav-bar{
+		z-index: 1;
+		width: 40%;
+		height: 100%;
+		display: flex;
+
+		align-items: center;
+		justify-content: flex-start;
+		background-color: inherit;
+
+		border-radius: 10px;
+		opacity: 0.8;
+
+		color: var(--color-4);
+	}
+	.shopping-cart{
+		width: 80px;
+		height: 80px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border: 2px solid black;
+		background-color: var(--color-3);
+		border-radius: 10px;
+
+		transition-duration: 0.3s;
+	}
+	.shopping-cart:hover{
+		height: 90px;
+		width: 90px;
+	}
+}
